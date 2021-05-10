@@ -1,0 +1,22 @@
+sidebar:
+    homepage: "Home"
+    archive: "Archives"
+    article_num: "Number of articles"
+post:
+    visitor: "Visitors"
+    views: "Views"
+    continue: "Read more"
+    older: "Older"
+    newer: "Newer"
+    comments_load_button: "Read Comments (Make sure disq.us, disquscdn.com and disqus.com can load properly)"    
+    permalink: "Link to this article: "
+share:
+    article_rss: "Article RSS"
+    comment_rss: "Comment RSS"
+    toImg: "Share to image"
+title:
+    category: "Categories"
+    tag: "Tag"
+misc:
+    home: "Home"
+    theme: "Theme"

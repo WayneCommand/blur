@@ -1,0 +1,22 @@
+sidebar:
+    homepage: "ホーム"
+    archive: "過去の投稿"
+    article_num: "記事番号"
+post:
+    visitor: "訪問者"
+    views: "ビュー"
+    continue: "読み続けて"
+    older: "古い"
+    newer: "新しい"
+    comments_load_button: "論評を読む「 あなたは disqus & disquscdn.com & disqus.com をロードできることを確認します」"    
+    permalink: "このリンク："
+share:
+    article_rss: "記事 RSS"
+    comment_rss: "論評 RSS"
+    toImg: "Share to image"
+title:
+    category: "カテゴリー"
+    tag: "ラベル"
+misc:
+    home: "ホーム"
+    theme: "テーマ"
