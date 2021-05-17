@@ -1,6 +1,8 @@
 # blur
 a new typecho theme.
 
+> demo: https://blog.inmind.ltd
+
 ## Tips
 
 做主题是我觉得之前的主题看腻了，于是大改了一下 符合 雾化玻璃，卡片风格。接近于 App Store 的浏览体验。
