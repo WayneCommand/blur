@@ -5,13 +5,14 @@
     </a>
 </div>
 
-
 <!--Footer-->
-<!-- <footer class="mdl-mini-footer" id="bottom">
+<!-- 
+<footer class="mdl-mini-footer" id="bottom">
+    底部菜单栏
 </footer>
 -->
-</main>
 
+</main>
 
 <!-- UC Browser Compatible -->
 <script>

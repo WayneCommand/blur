@@ -10,7 +10,7 @@ a new typecho theme.
 
 ## General 
 
-这个主题正在孵化中 请晚些再来看看吧。
+这个主题正在孵化中 请晚些再来看看吧。
 
 ## Feature
 

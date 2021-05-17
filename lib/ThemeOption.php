@@ -134,8 +134,7 @@ function themeConfig($form) {
                 $Render->panel("item", "缩略图显示效果", NULL,
                     $Render->radio("ThumbnailOption", "缩略图显示效果", NULL, 
                     [1 => "显示文章内第一张图片或指定的图片 (若无图片则显示随机图)",
-                    2 => "只显示纯色",
-                    3 => "只显示随机图片"], 1)
+                    2 => "只显示随机图片"], 1)
                 ).
                 $Render->panel("item", "缩略图为纯色时的颜色", NULL,
                     $Render->input("TitleColor", "缩略图为纯色时的颜色", "缩略图为纯色时的颜色", "#FFF")

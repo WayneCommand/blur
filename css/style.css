@@ -435,7 +435,7 @@ a {
 /****************/
 
 #scheme-Paradox .index-top-block {
-    margin-bottom: 47.59px
+    margin-bottom: 25px
 }
 @media screen and (max-width: 480px) {
     #scheme-Paradox .index-top-block {
@@ -485,7 +485,7 @@ a {
     background-repeat: no-repeat
 }
 #scheme-Paradox .post_entry-module {
-    margin-bottom: 47.59px;
+    margin-bottom: 25px;
     margin-top: 0;
 }
 #scheme-Paradox .material-layout .material-post,
@@ -499,7 +499,7 @@ a {
 }
 #scheme-Paradox .material-layout .material-layout__content {
     position: relative;
-    padding-top: 165px;
+    padding-top: 2em;
     margin: 0 auto;
     width: 100%;
 }
@@ -536,7 +536,7 @@ a {
     cursor: pointer;
     flex-grow: 1;
     flex-direction: row;
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
     align-items: flex-end
 }
 #scheme-Paradox .material-layout .mdl-card__media a,
@@ -912,17 +912,18 @@ a {
 #scheme-Paradox #post_entry-info {
     border-top: 1px solid rgba(0, 0, 0, .1)
 }
-#scheme-Paradox #post_entry-left-info {
+#scheme-Paradox .post_entry-left-info {
     float: left;
-    width: 50%
+    width: 50%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
 }
-#scheme-Paradox #post_entry-right-info {
+#scheme-Paradox .post_entry-right-info {
     float: right;
     font-size: 13px;
     font-weight: 400;
-    padding: 1pc;
     margin-top: 20px;
-    margin-right: 20px;
     /*    white-space: nowrap*/
 }
 @media screen and (max-width: 480px) {
@@ -1129,6 +1130,26 @@ a {
     font-weight: 400;
     margin: 0
 }
+
+#scheme-Paradox .article-headline {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 0;
+    text-shadow: 0px 0px 10px #444;
+    background-color: rgba(255, 255, 255, .65);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: .3em .7em .1em .7em;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    letter-spacing: 1px;
+}
+
+#scheme-Paradox .article-headline a {
+    font-weight: 400;
+}
+
 #scheme-Paradox .more {
     margin-left: 1pc
 }
