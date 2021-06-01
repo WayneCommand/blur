@@ -361,7 +361,7 @@
             <?php if (!empty($this->options->bgcolor)): ?>
                 background-image: url(<?php $this->options->bgcolor() ?>);
             <?php else: ?>
-                background-image: url(<?php getThemeFile('img/bg.png', true); ?>);
+                background-image: url('https://i.v2ex.co/C6QNgs3c.jpeg');
             <?php endif; ?>
             }
         </style>

@@ -11,7 +11,7 @@ $this->need('header.php'); ?>
         min-height: calc(100% - 120px - 5pc - 6em);
         text-align: center;
         overflow: auto;
-        padding: 0;
+        padding-bottom: 2em;
         margin: 0 auto;
         max-width: 320px;
     }
@@ -50,11 +50,14 @@ $this->need('header.php'); ?>
     .md-links-item {
         background: #fff;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-        height: 190px;
+        height: 120px;
+        width: 120px;
         line-height: 15px;
         margin: 20px 10px;
         padding: 0px 0px;
         transition: box-shadow 0.25s;
+        float: left;
+        border-radius: 90px;
     }
 
     .md-links a {
@@ -62,15 +65,11 @@ $this->need('header.php'); ?>
         text-decoration: none;
     }
 
-    .md-links li {
-        width: 150px;
-        float: left;
-        list-style: none;
-    }
-
     .md-links-item img {
         float: left;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 11px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        border-radius: 90px;
+        width: 120px
     }
 
     .md-links-item:hover {
@@ -131,10 +130,10 @@ $this->need('header.php'); ?>
                             <?php if (class_exists("Links_Plugin")): ?>
                                 <?php Links_Plugin::output('
                                     <a href="{url}" title="{title}" target="_blank">
-                                        <li class="md-links-item">
-                                            <img src="{image}" alt="{name}" style="width: 150px"/>
+                                        <div class="md-links-item">
+                                            <img src="{image}" alt="{name}"/>
                                             <div class="md-links-title">{name}</div>
-                                        </li>
+                                        </div>
                                     </a>
                                     '); ?>
                             <?php endif; ?>

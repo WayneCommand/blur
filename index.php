@@ -170,6 +170,12 @@ $this->need('header.php'); ?>
 
                     </div>
                 <?php endif; ?>
+
+                <!-- pixiv card  -->
+                <div class="mdl-card mdl-shadow--<?php $this->options->CardElevation() ?>dp something-else mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop index-top-block">
+                    <iframe src="https://cloud.mokeyjay.com/pixiv/" frameborder="0"  style="height: 100%; margin: 0 auto; text-align: center"></iframe>
+                </div>
+
                 <nav class="material-nav mdl-cell mdl-cell--12-col">
                     <?php $this->pageLink(
                         '<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button>'); ?>

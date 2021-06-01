@@ -4,10 +4,11 @@
 
     <main class="material-layout__content" id="main">
         <div id="top"></div>
-        <!-- Hamburger Button -->
-        <button class="MD-burger-icon sidebar-toggle">
-            <span id="MD-burger-id" class="MD-burger-layer"></span>
-        </button>
+        
+        <!-- Floating Action Button -->
+        <div class="back-step toTop" onclick='history.go(-1)'>
+            <i class="material-icons footer_top-i">present_to_all</i>
+        </div>
 
         <!-- Post module -->
         <div class="material-post_container">

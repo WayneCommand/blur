@@ -510,7 +510,7 @@ a {
 }
 #scheme-Paradox .material-layout .mdl-card {
     display: flex;
-    min-height: 700px;
+    min-height: 400px;
     flex-direction: column;
     align-items: stretch;
     border-radius: 12px;
@@ -1948,6 +1948,15 @@ a {
 .footer_top-i {
     width: 24px;
     height: 24px;
+}
+
+.back-step {
+    display: block;
+    position: fixed;
+    top: 24px;
+    transition: background-color .18s cubic-bezier(.6,0,.1,1),box-shadow .18s cubic-bezier(.6,0,.1,1),transform .18s cubic-bezier(.6,0,.1,1);
+    z-index: 8;
+    transform: translate(24px, 0);
 }
 /*Animation*/
 

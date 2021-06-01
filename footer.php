@@ -28,8 +28,8 @@
 
 <!-- Material js -->
 <?php jsLsload("jq_js", "js/jquery.min.js") ?>
-<?php jsLsload("js_js", "js/js.min.js") ?>
-<?php jsLsload("lazyload_js", "js/lazyload.min.js") ?>
+<?php jsLsload("js_js", "js/js.js") ?>
+<?php jsLsload("lazyload_js", "js/lazyload.js") ?>
 
 <!-- SmoothScroll -->
 <?php if (UACheck::is() !== "Safari"): ?>
